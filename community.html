@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Community - TXG Pro Trading Hub</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --gold:#C9A84C;
+  --gold-light:#F0D080;
+  --bg:#0A0A0A;
+  --border:#2A2A2A;
+  --text:#F5F0E8;
+  --muted:#aaa;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Barlow;
+  background:
+    radial-gradient(circle at top, rgba(201,168,76,0.08), transparent 50%),
+    radial-gradient(circle at bottom, rgba(201,168,76,0.05), transparent 60%),
+    var(--bg);
+  color:var(--text);
+}
+
+/* NAV */
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 40px;
+  border-bottom:1px solid var(--border);
+  background:rgba(10,10,10,0.85);
+  backdrop-filter:blur(10px);
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.logo{
+  font-family:"Bebas Neue";
+  font-size:24px;
+  color:var(--gold);
+  letter-spacing:2px;
+}
+
+nav .links a{
+  color:var(--muted);
+  text-decoration:none;
+  margin:0 10px;
+  font-size:13px;
+  letter-spacing:1px;
+  transition:0.2s;
+}
+
+nav .links a:hover{
+  color:var(--gold);
+}
+
+/* HEADER */
+.header{
+  text-align:center;
+  padding:70px 20px 30px;
+}
+
+.header h1{
+  font-family:"Bebas Neue";
+  font-size:70px;
+  color:var(--gold);
+  letter-spacing:3px;
+}
+
+.header p{
+  color:var(--muted);
+  max-width:600px;
+  margin:15px auto;
+  line-height:1.7;
+}
+
+/* GRID */
+.container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:25px;
+  padding:40px;
+  max-width:1100px;
+  margin:auto;
+}
+
+/* BOX */
+.box{
+  background:linear-gradient(145deg, #111, #0d0d0d);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:30px;
+  text-decoration:none;
+  text-align:center;
+  transition:0.3s;
+  position:relative;
+  overflow:hidden;
+}
+
+.box:hover{
+  transform:translateY(-8px);
+  border-color:var(--gold);
+  box-shadow:0 10px 30px rgba(201,168,76,0.15);
+}
+
+.icon{
+  font-size:50px;
+  margin-bottom:15px;
+}
+
+.title{
+  font-family:"Bebas Neue";
+  font-size:28px;
+  letter-spacing:2px;
+  margin-bottom:10px;
+}
+
+.wa{color:#25D366}
+.tg{color:#0088CC}
+.tt{color:#fff}
+.ig{color:#E1306C}
+
+.desc{
+  font-size:14px;
+  color:var(--muted);
+  line-height:1.6;
+}
+
+/* BACK */
+.back{
+  display:block;
+  text-align:center;
+  margin:20px auto 60px;
+  color:var(--gold);
+  text-decoration:none;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+  border-top:1px solid var(--border);
+  color:#666;
+  font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="logo">TXG PRO</div>
+
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About XM</a>
+    <a href="mentorship.html">Mentorship</a>
+    <a href="community.html">Community</a>
+    <a href="services.html">Services</a>
+  </div>
+</nav>
+
+<!-- HEADER -->
+<div class="header">
+  <h1>COMMUNITY</h1>
+  <p>Join powerful trading networks for signals, mentorship, and market insights 24/7.</p>
+</div>
+
+<!-- BOXES -->
+<div class="container">
+
+  <a class="box" href="https://chat.whatsapp.com/IsVcOYQ8xh8CcHmnlNOxtb" target="_blank">
+    <div class="icon">💬</div>
+    <div class="title wa">WHATSAPP</div>
+    <div class="desc">Daily signals, mentorship updates, and live market discussions.</div>
+  </a>
+
+  <a class="box" href="https://t.me/txg_pro" target="_blank">
+    <div class="icon">✈️</div>
+    <div class="title tg">TELEGRAM</div>
+    <div class="desc">Instant trade alerts, analysis, and forex opportunities.</div>
+  </a>
+
+  <a class="box" href="https://www.tiktok.com/@txg_forextrading" target="_blank">
+    <div class="icon">🎵</div>
+    <div class="title tt">TIKTOK</div>
+    <div class="desc">Short forex lessons, trade breakdowns, and insights.</div>
+  </a>
+
+  <a class="box" href="https://www.instagram.com/astrotrade.site?igsh=MWhpd2V2djJ3dXMzZQ==" target="_blank">
+    <div class="icon">📸</div>
+    <div class="title ig">INSTAGRAM</div>
+    <div class="desc">Daily trading content, updates, and motivation posts.</div>
+  </a>
+
+</div>
+
+<a class="back" href="index.html">← Back to Home</a>
+
+<footer>
+  © 2025 TXG Pro Trading Hub • XM Affiliate Partner Code: QJ6DM
+</footer>
+
+</body>
+</html>

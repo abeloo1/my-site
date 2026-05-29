@@ -189,25 +189,51 @@ footer{background:var(--bg-black);border-top:1px solid var(--border);padding:3re
 <body>
 
 <nav>
-  <div class="nav-inner">
-    <a class="logo" href="txg_pro_trading_hub.html"><span>TXG</span> PRO</a>
-    <ul class="nav-links">
-      <li><a href="txg_pro_trading_hub.html">Home</a></li>
-      <li><a href="txg_pro_trading_hub.html#about">About XM</a></li>
-      <li><a href="txg_pro_trading_hub.html#mentorship">Mentorship</a></li>
-      <li><a href="txg_pro_trading_hub.html#community">Community</a></li>
-      <li><a href="services.html" class="active">Services</a></li>
-    </ul>
-    <div style="display:flex;align-items:center;gap:0.75rem">
-      <div class="nav-social">
-        <a href="https://chat.whatsapp.com/IsVcOYQ8xh8CcHmnlNOxtb" target="_blank" title="WhatsApp">💬</a>
-        <a href="https://t.me/txg_pro" target="_blank" title="Telegram">✈️</a>
-        <a href="https://www.tiktok.com/@txg_forextrading" target="_blank" title="TikTok">🎵</a>
-      </div>
-      <a class="nav-cta" href="https://affs.click/4lhyw" target="_blank">Open Account</a>
-    </div>
+  <div class="logo">TXG PRO</div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About XM</a>
+    <a href="mentorship.html">Mentorship</a>
+    <a href="community.html">Community</a>
+    <a href="services.html">Services</a>
   </div>
 </nav>
+<style>
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 40px;
+  border-bottom:1px solid #2A2A2A;
+  background:rgba(10,10,10,0.75);
+  backdrop-filter:blur(10px);
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.logo{
+  font-family:"Bebas Neue";
+  font-size:24px;
+  color:#C9A84C;
+  letter-spacing:2px;
+}
+
+.nav-links a{
+  color:#aaa;
+  text-decoration:none;
+  margin:0 10px;
+  font-size:13px;
+  letter-spacing:1px;
+  transition:0.2s;
+}
+
+.nav-links a:hover{
+  color:#C9A84C;
+}
+</style>
+<!-- NAV END -->
 
 <!-- PAGE HERO -->
 <div class="page-hero">
